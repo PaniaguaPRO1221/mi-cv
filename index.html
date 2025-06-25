@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Currículum Paniagua</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light text-dark">
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+    <div class="container-fluid">
+      <span class="navbar-brand mb-0 h1">Mi CV</span>
+      <form class="d-flex ms-auto" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar en mi CV" aria-label="Buscar">
+        <button class="btn btn-outline-light" type="submit">Buscar</button>
+      </form>
+    </div>
+  </nav>
+
+  <!-- FOTO DE BOB ESPONJA -->
+  <div class="container text-center my-4">
+    <img 
+      src="imagen/bob.jpg" 
+      alt="Foto de Bob Esponja"
+      class="rounded shadow"
+      style="max-width: 200px;">
+    <p class="text-muted mt-2">Bob Paniagua Esponja, listo para trabajar</p>
+  </div>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <div class="container">
+
+    <!-- Datos personales -->
+    <div class="card mb-3">
+      <div class="card-header bg-dark text-white">Datos personales</div>
+      <div class="card-body">
+        <p><strong>Nombre:</strong> Edgar Isaac Paniagua Gonzales</p>
+        <p><strong>Fecha de nacimiento:</strong> 23/03/2007</p>
+        <p><strong>Teléfono:</strong> +52 56 5133 4223</p>
+        <p><strong>Correo:</strong> paniaguitaPro701@gmail.com</p>
+        <p><strong>Dirección:</strong> Edo. Méx, Chimalhuacán, Barrio Orfebres, Calle 8</p>
+      </div>
+    </div>
+
+    <!-- Objetivo -->
+    <div class="card mb-3">
+      <div class="card-header bg-dark text-white">Objetivo profesional</div>
+      <div class="card-body">
+        Soy estudiante de preparatoria con interés en el área académica. Busco integrarme a una escuela donde pueda desarrollar mis conocimientos y aportar a la educación en niños.
+      </div>
+    </div>
+
+    <!-- Formación académica -->
+    <div class="card mb-3">
+      <div class="card-header bg-dark text-white">Formación académica</div>
+      <div class="card-body">
+        Escuela Preparatoria Anexa a la Normal<br>
+        2022 - 2025 (En curso)
+      </div>
+    </div>
+
+    <!-- Experiencia -->
+    <div class="card mb-3">
+      <div class="card-header bg-dark text-white">Experiencia laboral</div>
+      <div class="card-body">
+        Sin experiencia formal, pero con disposición de aprender.
+      </div>
+    </div>
+
+    <!-- Habilidades -->
+    <div class="card mb-4">
+      <div class="card-header bg-dark text-white">Habilidades</div>
+      <div class="card-body">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Manejo de computadora</li>
+          <li class="list-group-item">Profesional en páginas web</li>
+          <li class="list-group-item">Espacio, Náhuatl, Xochitil</li>
+          <li class="list-group-item">Trabajo en equipo</li>
+          <li class="list-group-item">Responsabilidad, puntualidad y buena comunicación</li>
+          <li class="list-group-item">Redes sociales, edición de videos</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Acordeón -->
+    <div class="card mb-4">
+      <div class="card-header bg-dark text-white">Más sobre mí</div>
+      <div class="card-body">
+        <div class="accordion" id="accordionExample">
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading1">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+                Carreras que me gustan
+              </button>
+            </h2>
+            <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Matemáticas, Psicología, Educación Física, Pedagogía.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading2">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+                Carreras que no me gustan
+              </button>
+            </h2>
+            <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Biología, Química, Filosofía, Geografía.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading3">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
+                Escuelas que me llaman la atención
+              </button>
+            </h2>
+            <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                UNAM, UPN, IPN, UAEM.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading4">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4">
+                Tour: “Viajar a PueblaYork”
+              </button>
+            </h2>
+            <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Me gustaría viajar a un lugar que mezcle la cultura de Puebla y Nueva York.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading5">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5">
+                Hoy
+              </button>
+            </h2>
+            <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Hoy estoy estudiando la preparatoria y quisiera prepararme para matemáticas.
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Contacto -->
+    <div class="text-center mb-5">
+      <h4>¿Te interesa saber más?</h4>
+      <p>Contáctame en <strong>paniaguitaPro701@gmail.com</strong></p>
+      <a href="mailto:paniaguitaPro701@gmail.com" class="btn btn-dark">Contáctame</a>
+    </div>
+
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
